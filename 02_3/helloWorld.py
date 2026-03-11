@@ -1,0 +1,6 @@
+print('Hello world')
+print(1+2)
+print()
+print("The end","or is it","get it done",56)
+print("my hovercraft is full of eels")
+print(6*7)

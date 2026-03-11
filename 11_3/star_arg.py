@@ -12,3 +12,12 @@ def test_star(*args):
 test_star(0,1,2,3,4)
 print()
 test_star()
+
+
+def sum_numbers(*a:float)->float:
+    sum = 0
+    for i in a:
+        sum += i
+    return sum
+print(sum_numbers(1,2,3))
+print(sum_numbers(1,2,3,7.8,2.9,3.1))

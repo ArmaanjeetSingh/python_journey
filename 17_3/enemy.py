@@ -15,7 +15,8 @@ class Enemy(object):
             if self.lives > 0:
                 print("{0.name} lost a life".format(self))
             else:
-                print("{0.name} is dead")
+                print("{0.name} is dead".format(self))
+                self.alive = False
 
     def __str__(self):
         return "Name : {0.name}, Lives {0.lives}, Hit points :{0.hit_points}".format(self)
@@ -34,3 +35,10 @@ class Vampyre(Enemy):
 
     def __init__(self,name):
         super().__init__(name=name,lives =3 ,hit_points=12)
+
+    def dodges(self):
+        if random.randint(1,3)==3:
+            print("*****{0.name} dodge *****".format(self))
+            return True
+        else:
+            return False

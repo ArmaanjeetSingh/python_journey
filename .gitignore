@@ -2,3 +2,8 @@
 *.csv
 *.txt
 *.xlsx
+*.sql
+*.htm
+*.html
+*.db
+*.cpython-312.pyc

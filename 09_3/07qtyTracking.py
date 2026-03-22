@@ -82,4 +82,4 @@ while True:
                 print(f"\t{item} is available in pantry")
             else:
                 quantity_to_buy = required_qty - quantity_in_pantry
-                print(f"\tYou don't have necessary ingredient {item}
+                print(f"\tYou don't have necessary ingredient {item})

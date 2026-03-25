@@ -6,3 +6,5 @@
 *.html
 *.db
 *.cpython-312.pyc
+*.emp3
+*.zip

@@ -83,13 +83,10 @@ while True:
             current_choice = input("Enter the item you want to add")
             recipe[current_choice] = {}
             print("Enter its recipe ")
-            no_of_ingrdients = int(input("Enter number of ingredients"))
+            no_of_ingredients = int(input("Enter number of ingredients"))
             for i in range(no_of_ingrdients):
                 item = input("Enter ingredient name ")
                 qty  = int(input("Enter required quantity "))
-                flag = check_for_ing(item,qty)
-                if not flag:
-                    print("Cann't add this dish")
                 recipe[current_choice] = {(item,qty)}
 
 

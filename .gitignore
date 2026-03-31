@@ -9,3 +9,6 @@
 *.emp3
 *.zip
 *.json
+venv/
+env/
+myEnv/
